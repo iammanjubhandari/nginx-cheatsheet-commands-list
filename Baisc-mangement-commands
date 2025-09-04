@@ -7,3 +7,11 @@ sudo systemctl stop nginx
 # Restart Nginx (applies configuration changes)
 sudo systemctl restart nginx
 
+# Reload Nginx (graceful, no downtime)
+sudo systemctl reload nginx
+
+# Check Nginx status
+sudo systemctl status nginx
+
+# Enable Nginx to start on boot
+sudo systemctl enable nginx
