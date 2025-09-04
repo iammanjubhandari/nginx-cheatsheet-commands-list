@@ -1,0 +1,9 @@
+# Start Nginx
+sudo systemctl start nginx
+
+# Stop Nginx
+sudo systemctl stop nginx
+
+# Restart Nginx (applies configuration changes)
+sudo systemctl restart nginx
+
