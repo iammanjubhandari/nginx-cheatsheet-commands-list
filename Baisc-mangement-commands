@@ -15,3 +15,9 @@ sudo systemctl status nginx
 
 # Enable Nginx to start on boot
 sudo systemctl enable nginx
+
+# Test configuration for syntax errors
+sudo nginx -t
+
+# Show Nginx version and compile options
+nginx -V
