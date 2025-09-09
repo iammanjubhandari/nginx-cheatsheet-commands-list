@@ -1,0 +1,7 @@
+# Follow the access log
+sudo tail -f /var/log/nginx/access.log
+
+# Follow the error log
+sudo tail -f /var/log/nginx/error.log
+
+
