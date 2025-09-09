@@ -6,3 +6,6 @@ sudo tail -f /var/log/nginx/error.log
 
 # Watch the access log, showing only real-time GET/POST requests
 tail -f /var/log/nginx/access.log | grep 'GET\|POST'
+
+# Search the error log for a specific term
+sudo grep -i "permission denied" /var/log/nginx/error.log
