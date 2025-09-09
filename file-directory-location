@@ -1,0 +1,8 @@
+# Main Conf
+/etc/nginx/nginx.conf
+
+# SSL certificate directory
+/etc/ssl/certs/
+
+# private key directory
+/etc/ssl/private/
