@@ -1,0 +1,10 @@
+# Test the configuration file
+sudo nginx -t
+
+# Show full config  also show the files it's reading
+sudo nginx -T
+
+# Show the version of Nginx
+
+nginx -v  # Version only
+nginx -V  # Version, modules and paths
