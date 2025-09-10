@@ -8,3 +8,7 @@ sudo nginx -T
 
 nginx -v  # Version only
 nginx -V  # Version, modules and paths
+
+
+# Show path for config file
+nginx -t 2>&1 | grep file
